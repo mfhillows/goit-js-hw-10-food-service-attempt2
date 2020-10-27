@@ -1,2 +1,2 @@
-import markup from "./markup";
-import theme from "./theme"
+import markup from "./js/markup";
+import theme from "./js/theme";
