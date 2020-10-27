@@ -17,17 +17,17 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service/"
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service-attempt2/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mfhillows/goit-js-hw-10-food-service"
+    "url": "git+https://github.com/mfhillows/goit-js-hw-10-food-service-attempt2"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mfhillows/goit-js-hw-10-food-service/issues"
+    "url": "https://github.com/mfhillows/goit-js-hw-10-food-service-attempt2/issues"
   },
-  "homepage": "https://mfhillows.github.io/goit-js-hw-10-food-service.git/"
+  "homepage": "https://mfhillows.github.io/goit-js-hw-10-food-service-attempt2.git/"
 }
