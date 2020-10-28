@@ -27,4 +27,4 @@ function saveTheme() {
   }
 }
 saveTheme();
-localStorage.clear();
+// localStorage.clear();
