@@ -19,12 +19,21 @@ function changeTheme() {
 
 function saveTheme() {
   const saveTheme = localStorage.getItem("saveTheme");
-  if (saveTheme) {
-    document.body.classList.remove(Theme.LIGHT);
-    document.body.classList.remove(Theme.DARK);
-
-    document.body.classList.add(saveTheme);
+  document.body.classList.remove(Theme.LIGHT);
+  document.body.classList.remove(Theme.DARK);
+  document.body.classList.add(saveTheme);
+  if (saveTheme == Theme.DARK) {
+    toolBar.checked = true;
   }
 }
 saveTheme();
 // localStorage.clear();
+// else if (saveTheme === Theme.DARK) {
+//  toolBar.checked;
+
+  // if (saveTheme) {
+  //   document.body.classList.remove(Theme.LIGHT);
+  //   document.body.classList.remove(Theme.DARK);
+
+  //   document.body.classList.add(saveTheme);
+  // }
